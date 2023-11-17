@@ -1,0 +1,6 @@
+[user]
+	name = Akash Jain
+	email = ajcodes.tech@gmail.com
+	
+[core]
+	sshCommand = "ssh -i ~/.ssh/github_personal"
