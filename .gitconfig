@@ -1,6 +1,9 @@
 [user]
-	name = Akash Jain
-	email = ajcodes.tech@gmail.com
-	
+	name = John Doe
+	email = john@work.com
+
+[includeIf "gitdir:~/personal/"]
+	path = "~/.config/git-config/.gitconfig" # 
+
 [core]
-	sshCommand = "ssh -i ~/.ssh/github_personal"
+	editor = nvim
